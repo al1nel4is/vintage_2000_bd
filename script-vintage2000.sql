@@ -13,9 +13,4 @@ CREATE TABLE fornecedor (
 );
 
 
-CREATE TABLE conta (
- id_conta SERIAL PRIMARY KEY,
- numero varchar(255) not null ,
- saldo decimal(10,2)
-);
 
