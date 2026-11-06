@@ -18,3 +18,9 @@ CREATE TABLE conta (
  saldo decimal(10,2)
 );
 
+CREATE TABLE pagamento (
+    id_pagamento SERIAL PRIMARY KEY ,
+    valor decimal(10,2) not null,
+    status varcahr(255) not null,
+    id_venda bigint not null 
+ );
