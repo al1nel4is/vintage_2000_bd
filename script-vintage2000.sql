@@ -12,3 +12,11 @@ CREATE TABLE fornecedor (
   cnpj varchar (18),
   telefone varchar (20)
 );
+
+
+CREATE TABLE conta (
+ id_conta SERIAL PRIMARY KEY,
+ numero varchar(255) not null ,
+ saldo decimal(10,2)
+);
+
