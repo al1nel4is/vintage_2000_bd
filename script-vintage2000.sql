@@ -24,3 +24,10 @@ CREATE TABLE pagamento (
     status varcahr(255) not null,
     id_venda bigint not null 
  );
+
+CREATE TABLE categoria (
+    id_categoria SERIAL PRIMARY KEY,
+    nome varchar(255),
+    descricao varchar(255)
+);
+)
